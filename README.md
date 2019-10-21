@@ -12,3 +12,7 @@ Need to do:
 5) Host/deploy on 'Netlify' or 'Githb Pages'
 6) add 'login' button on homepage that lunks user to react bit
 7) add google fonts link, icons 
+
+To add new features:
+-checkout a new branch! every time you start work on a new feature
+:make sure the feature + your name is in the title of the branch e.g Nav-Bar-AustenAllred
