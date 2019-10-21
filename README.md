@@ -11,3 +11,4 @@ Need to do:
 4) CSS fundamentals such as: box model, flex-box, and positioning were used appropriately.
 5) Host/deploy on 'Netlify' or 'Githb Pages'
 6) add 'login' button on homepage that lunks user to react bit
+7) add google fonts link, icons 
