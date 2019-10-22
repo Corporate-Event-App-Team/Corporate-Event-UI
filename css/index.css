@@ -314,7 +314,26 @@ footer {
   margin-right: 80px;
   background: #090429;
 }
+@media (max-width: 500px) {
+  .container-aboutus .TLbio {
+    background: #090429;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
 .container-aboutus .allmems {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .container-aboutus .allmems {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .S {
+    width: 80%;
+  }
 }

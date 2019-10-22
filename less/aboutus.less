@@ -2,6 +2,7 @@
 
 .container-aboutus {
     margin-bottom: 10px;
+    
 
     .TLbio {
 
@@ -10,18 +11,38 @@
         margin-right: 80px;
         background: #090429;
           
+        @media @mobile {
+            background: #090429;
+            width: 100%;
+            margin-right: 0px;
+            margin-left: 0px;
+            
+        }
         
     }
 
 
 .allmems {
     .mixinFlex();
+
+    @media @mobile {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
     
+
     
 }
 
 
+.S {
+
+    @media @mobile {
+        width: 80%;
+
+    }
+}
 
 
 
