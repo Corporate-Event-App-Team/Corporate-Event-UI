@@ -167,6 +167,14 @@ a:hover {
   border-radius: 10px;
   margin-right: 10px;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: #090429;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 #title {
   width: 50%;
   font-size: 3rem;
@@ -229,7 +237,7 @@ a:hover {
   border: 2px #090429 solid;
   border-radius: 10px;
   margin-bottom: 10px;
-  height: 220px;
+  height: 100%;
 }
 .featureclass {
   margin-left: 20px;
@@ -257,7 +265,6 @@ a:hover {
   text-decoration: underline;
 }
 .all {
-  border: 2px blue solid;
   padding-left: 20px;
   padding-right: 20px;
   width: 33.3%;
@@ -265,11 +272,25 @@ a:hover {
 .contentcontainer {
   margin-bottom: 20px;
 }
-footer {
+.container-aboutus {
+  border: 1px red solid;
+  margin-bottom: 10px;
+}
+.TLbio {
+  border: 3px solid blue;
   display: flex;
   justify-content: center;
-  color: white;
+  margin-left: 80px;
+  margin-right: 80px;
   background: #090429;
-  padding-top: 10px;
-  padding-bottom: 10px;
+}
+.membersheader {
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.Anupara {
+  display: flex;
+  justify-content: center;
 }
