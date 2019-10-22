@@ -6,12 +6,27 @@
      display: flex;
      justify-content: center;
  }
+
+ .mixinBorder {
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+ .mixinPadding {
+    padding-left: 20px;
+    padding-right: 20px;
+
+ }
     
 
     //Parametric Mixin- reusable 
-    // do login button(@back-col, @text-col, @radius, @font) {
-        //  background: @back-col
-        //  color: @text-col;
-        //  border-radius: @radius;
-        //  font-size: @font;
-    // }
+
+     .buttontostyle(@back-col, @text-col, @radius, @margin-left, @margin-right, @padding) {
+          background: @back-col;
+          color: @text-col;
+          border-radius: @radius;
+          margin-left: @margin-left;
+          margin-right: @margin-right;
+          padding: @padding
+
+     }

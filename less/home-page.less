@@ -25,8 +25,7 @@
     .mixinFlex();
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
+    .mixinBorder();
     margin-bottom: 10px;
     
     
@@ -49,23 +48,25 @@
     padding-bottom: 20px;
 
     .buttonstyle {
-        margin-right: 10px;
-        margin-left: 10px;
+        .buttontostyle(#090429, white, 13px, 10px, 10px, .4em);
         border: 2px @header-font-color solid;
         border-radius: 13px;
         line-height: 3.5rem;
         cursor: pointer;
         padding: .4em;
-        color: white;
-        background: #090429;
+        
     
         &:hover {
             background-color: saturate(white, 80%);
         
           }
+
           &:hover {
-            color: saturate(@header-font-color, 50%);
+            color: saturate(@header-font-color, 80%);
+        
           }
+          
+
     
       
     
@@ -104,19 +105,17 @@
 }
 
 .featureclass {
-    margin-left: 20px;
-   margin-right: 20px;
+    .mixinBorder();
    .mixinFlex();
-    padding-left: 20px;
-    padding-right: 20px;
+   .mixinPadding();
+  
    
     
 
 }
 
 .featurepara {
-    margin-left: 20px;
-    margin-right: 20px;
+    .mixinBorder();
 }
 
 
@@ -144,8 +143,7 @@
 }
 
 .all {
-    padding-left: 20px;
-    padding-right: 20px;
+    .mixinPadding();
     width: 33.3%;
    
 

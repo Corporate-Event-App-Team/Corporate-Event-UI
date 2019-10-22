@@ -2,6 +2,14 @@
   display: flex;
   justify-content: center;
 }
+.mixinBorder {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mixinPadding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 html,
 body,
 div,
@@ -237,15 +245,15 @@ footer {
   padding-bottom: 20px;
 }
 .buttons .buttonstyle {
-  margin-right: 10px;
+  background: #090429;
+  color: white;
   margin-left: 10px;
+  margin-right: 10px;
   border: 2px #FBAB06 solid;
   border-radius: 13px;
   line-height: 3.5rem;
   cursor: pointer;
   padding: 0.4em;
-  color: white;
-  background: #090429;
 }
 .buttons .buttonstyle:hover {
   background-color: #ffffff;
