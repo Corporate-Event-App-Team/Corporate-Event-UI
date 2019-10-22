@@ -185,6 +185,9 @@ footer {
   color: #FBAB06;
   padding-left: 10px;
 }
+.tagandpic {
+  margin-top: 60px;
+}
 .undernav {
   display: flex;
   justify-content: center;
@@ -193,9 +196,6 @@ footer {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 10px;
-}
-.tagandpic {
-  margin-top: 60px;
 }
 .bee {
   display: flex;
@@ -208,7 +208,7 @@ footer {
   justify-content: center;
   padding-bottom: 20px;
 }
-.buttonstyle {
+.buttons .buttonstyle {
   margin-right: 10px;
   margin-left: 10px;
   border: 2px #FBAB06 solid;
@@ -219,10 +219,10 @@ footer {
   color: white;
   background: #090429;
 }
-.buttonstyle:hover {
+.buttons .buttonstyle:hover {
   background-color: #ffffff;
 }
-.buttonstyle:hover {
+.buttons .buttonstyle:hover {
   color: #ffac02;
 }
 .container-home {
