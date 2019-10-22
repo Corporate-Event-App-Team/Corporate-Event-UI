@@ -182,16 +182,19 @@ a {
   padding-bottom: 10px;
 }
 .buttons {
-  border: 5px red solid;
+  border-bottom: 1px #FBAB06 dashed;
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
 }
 .buttonstyle {
   margin-right: 10px;
   margin-left: 10px;
-  border: 2px black solid;
+  border: 2px #FBAB06 solid;
   border-radius: 13px;
   line-height: 3.5rem;
   cursor: pointer;
   padding: 0.4em;
+  color: white;
+  background: #090429;
 }
