@@ -6,6 +6,11 @@
     color: @header-font-color;
     padding-left: 10px;
 
+    @media @mobile {
+        width: 100%;
+        .mixinFlex();
+    }
+
 }
 
 
@@ -17,8 +22,7 @@
 }
 
 .undernav {
-    display: flex;
-    justify-content: center;
+    .mixinFlex();
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 20px;
@@ -41,8 +45,7 @@
 
 .buttons {
     border-bottom: 1px @header-font-color dashed;
-    display: flex;
-    justify-content: center;
+    .mixinFlex();
     padding-bottom: 20px;
 
     .buttonstyle {
@@ -83,8 +86,7 @@
 
 .specialh2 {
      font-size: 2rem;
-     display: flex;
-     justify-content: center;
+     .mixinFlex();
 
 
  }
@@ -104,8 +106,7 @@
 .featureclass {
     margin-left: 20px;
    margin-right: 20px;
-    display: flex;
-    justify-content: center;
+   .mixinFlex();
     padding-left: 20px;
     padding-right: 20px;
    
@@ -123,8 +124,7 @@
 .text {
     
     width: 100%;
-    display: flex;
-    justify-content: center;
+    .mixinFlex();
     align-items: center;
     
     
@@ -132,11 +132,15 @@
 
 .headertext {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    .mixinFlex();
     align-items: center;
     text-decoration: underline;
 
+}
+
+.contentcontainer {
+    margin-bottom: 20px;
+    
 }
 
 .all {
@@ -147,27 +151,3 @@
 
 
 }
-
-.contentcontainer {
-    margin-bottom: 20px;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
