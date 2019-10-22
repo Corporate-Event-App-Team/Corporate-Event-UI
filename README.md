@@ -15,4 +15,4 @@ Need to do:
 
 To add new features:
 -checkout a new branch! every time you start work on a new feature
-:make sure the feature + your name is in the title of the branch e.g Nav-Bar-AustenAllred
+:make sure the feature + your name is in the title of the branch e.g Nav-Bar

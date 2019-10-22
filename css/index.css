@@ -122,3 +122,46 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #FBAB06;
+}
+.headerclass {
+  display: flex;
+  border: 1px red solid;
+}
+.navflexbox {
+  width: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+#title {
+  width: 50%;
+  background: pink;
+  font-size: 3rem;
+  color: #FBAB06;
+  padding-left: 10px;
+}
