@@ -128,8 +128,11 @@ table {
 html {
   font-size: 62.5%;
 }
+h1 {
+  font-size: 2.5rem;
+}
 h2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 h3 {
   font-size: 1.9rem;
@@ -144,7 +147,10 @@ p {
 }
 a {
   text-decoration: none;
-  color: #FBAB06;
+  color: white;
+}
+a:hover {
+  color: #ffac02;
 }
 .headerclass {
   display: flex;
@@ -157,6 +163,9 @@ a {
   justify-content: center;
   justify-content: space-around;
   align-items: center;
+  background: #090429;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 #title {
   width: 50%;
@@ -197,4 +206,37 @@ a {
   padding: 0.4em;
   color: white;
   background: #090429;
+}
+.buttonstyle:hover {
+  background-color: #ffffff;
+}
+.buttonstyle:hover {
+  color: #ffac02;
+}
+.container-home {
+  border-bottom: 1px #FBAB06 dashed;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+}
+#specialh2 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.mainpictures {
+  width: 30%;
+  border: 2px #090429 solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.featureclass {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.text {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -19,8 +19,13 @@
 //     color: @header-font-color;
 //   }
   
+h1 {
+  font-size: 2.5rem;
+}
+
+
   h2 {
-    font-size: 2.0rem;
+    font-size: 1.7rem;
   }
   
   h3 {
@@ -40,6 +45,10 @@
   
   a {
     text-decoration: none;
-    color: @header-font-color;
+    color: white;
+
+    &:hover {
+      color: saturate(@header-font-color, 50%);
+    }
   }
   
