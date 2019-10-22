@@ -279,20 +279,14 @@ footer {
 .container-aboutus {
   margin-bottom: 10px;
 }
-.TLbio {
+.container-aboutus .TLbio {
   display: flex;
   justify-content: center;
   margin-left: 80px;
   margin-right: 80px;
   background: #090429;
 }
-.membersheader {
-  display: flex;
-  justify-content: center;
-  margin-left: 80px;
-  margin-right: 80px;
-}
-.allmems {
+.container-aboutus .allmems {
   display: flex;
   justify-content: center;
 }
