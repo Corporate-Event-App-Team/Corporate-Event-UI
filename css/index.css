@@ -129,10 +129,10 @@ html {
   font-size: 62.5%;
 }
 h2 {
-  font-size: 3.2rem;
+  font-size: 2rem;
 }
 h3 {
-  font-size: 2.8rem;
+  font-size: 1.9rem;
 }
 p {
   font-size: 1.6rem;
@@ -148,9 +148,9 @@ a {
 }
 .headerclass {
   display: flex;
-  border: 1px red solid;
+  margin-top: 20px;
 }
-.navflexbox {
+.headerclass .navflexbox {
   width: 50%;
   font-size: 1.5rem;
   display: flex;
@@ -160,8 +160,38 @@ a {
 }
 #title {
   width: 50%;
-  background: pink;
   font-size: 3rem;
   color: #FBAB06;
   padding-left: 10px;
+}
+.undernav {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.tagandpic {
+  margin-top: 60px;
+}
+.bee {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.buttons {
+  border: 5px red solid;
+  display: flex;
+  justify-content: center;
+}
+.buttonstyle {
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 2px black solid;
+  border-radius: 13px;
+  line-height: 3.5rem;
+  cursor: pointer;
+  padding: 0.4em;
 }
