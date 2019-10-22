@@ -330,6 +330,7 @@ footer {
   .container-aboutus .allmems {
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 500px) {
