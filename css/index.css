@@ -170,7 +170,9 @@ a:hover {
 }
 .headerclass {
   display: flex;
-  margin-top: 20px;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 @media (max-width: 500px) {
   .headerclass {
@@ -189,6 +191,8 @@ a:hover {
   background: #090429;
   border-radius: 10px;
   margin-right: 10px;
+  height: 60px;
+  align-self: flex-start;
 }
 @media (max-width: 500px) {
   .headerclass .navflexbox {
@@ -213,8 +217,6 @@ footer {
 }
 #title {
   width: 50%;
-  font-size: 3rem;
-  color: #FBAB06;
   padding-left: 10px;
 }
 @media (max-width: 500px) {
@@ -225,7 +227,10 @@ footer {
   }
 }
 .tagandpic {
-  margin-top: 60px;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 .undernav {
   display: flex;
@@ -240,6 +245,7 @@ footer {
   display: flex;
   margin: 0 auto;
   padding-bottom: 10px;
+  width: 100%;
 }
 .buttons {
   border-bottom: 1px #FBAB06 dashed;
