@@ -50,14 +50,14 @@
 
 
 .buttons {
-    border-bottom: 1px @header-font-color dashed;
+    border-bottom: 1px @theme-font-color dashed;
     .mixinFlex();
     padding-bottom: 20px;
 
 
     .buttonstyle {
-        .buttontostyle(#090429, white, 13px, 10px, 10px, .4em);
-        border: 2px @header-font-color solid;
+        .buttontostyle(@background-color, white, 13px, 10px, 10px, .4em);
+        border: 2px @theme-font-color solid;
         border-radius: 13px;
         line-height: 3.5rem;
         cursor: pointer;
@@ -71,7 +71,7 @@
           }
 
           &:hover {
-            color: saturate(@header-font-color, 80%);
+            color: saturate(@theme-font-color, 80%);
         
           }
           
@@ -86,7 +86,7 @@
 
 
 .container-home {
-    border-bottom: 1px @header-font-color dashed;
+    border-bottom: 1px @theme-font-color dashed;
     margin-bottom: 50px;
     padding-bottom: 50px;
     margin-top: 30px;
@@ -104,7 +104,7 @@
 
 .mainpictures {
     width: 100%;
-    border: 2px #090429 solid; 
+    border: 3px @background-color solid; 
     border-radius: 10px;
     margin-bottom: 10px;
      object-fit: contain;
@@ -135,7 +135,7 @@
     .mixinBorder();
   
     @media @mobile {
-        font-size: 1.4rem;
+        font-size: @mobile-font-size;
     }
 }
 
@@ -148,7 +148,7 @@
     align-items: center;
     
     @media @mobile {
-        font-size: 1.4rem;
+        font-size: @mobile-font-size;
     }
    
     

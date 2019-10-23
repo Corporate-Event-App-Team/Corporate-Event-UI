@@ -283,7 +283,7 @@ footer {
 }
 .mainpictures {
   width: 100%;
-  border: 2px #090429 solid;
+  border: 3px #090429 solid;
   border-radius: 10px;
   margin-bottom: 10px;
   object-fit: contain;
