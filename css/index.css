@@ -307,11 +307,21 @@ footer {
   margin-left: 20px;
   margin-right: 20px;
 }
+@media (max-width: 500px) {
+  .featurepara {
+    font-size: 1.4rem;
+  }
+}
 .text {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .text {
+    font-size: 1.4rem;
+  }
 }
 .headertext {
   width: 100%;
