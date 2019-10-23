@@ -275,7 +275,6 @@ footer {
   margin-bottom: 50px;
   padding-bottom: 50px;
   margin-top: 30px;
-  background: blue;
 }
 .specialh2 {
   font-size: 2rem;
@@ -297,7 +296,12 @@ footer {
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 30px;
-  border: 3px solid green;
+}
+@media (max-width: 500px) {
+  .featureclass {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .featurepara {
   margin-left: 20px;
@@ -308,7 +312,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px red solid;
 }
 .headertext {
   width: 100%;
@@ -324,6 +327,11 @@ footer {
   padding-left: 20px;
   padding-right: 20px;
   width: 33.3%;
+}
+@media (max-width: 500px) {
+  .all {
+    width: 100%;
+  }
 }
 .container-aboutus {
   margin-bottom: 10px;
