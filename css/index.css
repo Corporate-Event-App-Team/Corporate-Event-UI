@@ -2,13 +2,12 @@
   display: flex;
   justify-content: center;
 }
-.mixinBorder {
-  margin-left: 20px;
-  margin-right: 20px;
-}
 .mixinPadding {
   padding-left: 20px;
   padding-right: 20px;
+}
+.alignItem {
+  align-items: center;
 }
 html,
 body,
@@ -357,8 +356,8 @@ footer {
   .container-aboutus .TLbio {
     background: #090429;
     width: 100%;
-    margin-right: 0px;
     margin-left: 0px;
+    margin-right: 0px;
   }
 }
 .container-aboutus .allmems {

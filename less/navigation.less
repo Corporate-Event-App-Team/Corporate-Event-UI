@@ -4,13 +4,13 @@
     display: flex;
     margin-top: 10px;
     justify-content: space-between;
-    align-items: center;
+    .alignItem();
 
 
     @media @mobile {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        .alignItem();
         
        
     }
@@ -22,7 +22,7 @@
         font-size: @nav-font-size;
         .mixinFlex();
         justify-content: space-around;
-        align-items: center;
+        .alignItem();
         background: @background-color;
         border-radius: 10px;
         margin-right: 10px;
@@ -36,8 +36,7 @@
             margin-top: 10px;
             justify-content: space-around;
             .widthParaMixin(100%);
-            padding-top: 10px;
-            padding-bottom: 10px;
+            .paddingParaMixin(10px, 10px);
             margin-right: 0px;
         }
     

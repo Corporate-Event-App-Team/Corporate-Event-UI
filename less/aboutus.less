@@ -7,15 +7,13 @@
     .TLbio {
 
         .mixinFlex();
-        margin-left: 80px;
-        margin-right: 80px;
+        .marginParaMixin(80px, 80px);
         background: @background-color;
           
         @media @mobile {
             background: @background-color;
             .widthParaMixin(100%);
-            margin-right: 0px;
-            margin-left: 0px;
+            .marginParaMixin(0px, 0px);
             
         }
         
@@ -26,8 +24,7 @@
     .mixinFlex();
 
     @media @mobile {
-        margin-left: 10px;
-        margin-right: 10px;
+        .marginParaMixin(10px, 10px);
         font-size: @mobile-font-size;
         
         

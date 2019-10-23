@@ -7,15 +7,16 @@
      justify-content: center;
  }
 
- .mixinBorder {
-    margin-left: 20px;
-    margin-right: 20px;
- }
+
 
  .mixinPadding {
     padding-left: 20px;
     padding-right: 20px;
 
+ }
+
+ .alignItem {
+    align-items: center;
  }
     
 
@@ -34,4 +35,14 @@
 
      .widthParaMixin(@width) {
         width: @width;
+     }
+
+     .marginParaMixin(@margin-l, @margin-r) {
+        margin-left: @margin-l;
+        margin-right: @margin-r;
+     }
+
+     .paddingParaMixin(@padding-top, @padding-bottom) {
+        padding-top: @padding-top;
+        padding-bottom: @padding-bottom;
      }

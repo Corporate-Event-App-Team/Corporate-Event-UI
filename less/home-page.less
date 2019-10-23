@@ -27,9 +27,8 @@
 
 .undernav {
     .mixinFlex();
-    padding-top: 5px;
-    padding-bottom: 5px;
-    .mixinBorder();
+    .paddingParaMixin(5px, 5px);
+    .marginParaMixin(20px, 20px);
     margin-bottom: 10px;
     
     
@@ -114,7 +113,7 @@
 }
 
 .featureclass {
-    .mixinBorder();
+    .marginParaMixin(20px, 20px);
    .mixinFlex();
    .mixinPadding();
    margin-bottom: 30px;
@@ -132,7 +131,7 @@
 }
 
 .featurepara {
-    .mixinBorder();
+    .marginParaMixin(20px, 20px);
   
     @media @mobile {
         font-size: @mobile-font-size;
@@ -145,7 +144,7 @@
     
     .widthParaMixin(100%);
     .mixinFlex();
-    align-items: center;
+    .alignItem();
     
     @media @mobile {
         font-size: @mobile-font-size;
@@ -157,7 +156,7 @@
 .headertext {
     .widthParaMixin(100%);
     .mixinFlex();
-    align-items: center;
+    .alignItem();
     text-decoration: underline;
 
 }
