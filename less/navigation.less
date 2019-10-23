@@ -18,7 +18,7 @@
 
 
     .navflexbox {
-        width: 50%;
+        .widthParaMixin(50%);
         font-size: @nav-font-size;
         .mixinFlex();
         justify-content: space-around;
@@ -35,7 +35,7 @@
         @media @mobile {
             margin-top: 10px;
             justify-content: space-around;
-            width: 100%;
+            .widthParaMixin(100%);
             padding-top: 10px;
             padding-bottom: 10px;
             margin-right: 0px;
