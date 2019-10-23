@@ -266,9 +266,10 @@ footer {
 }
 .container-home {
   border-bottom: 1px #FBAB06 dashed;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
   margin-top: 30px;
-  margin-bottom: 10px;
-  padding-bottom: 30px;
+  background: blue;
 }
 .specialh2 {
   font-size: 2rem;
@@ -280,7 +281,7 @@ footer {
   border: 2px #090429 solid;
   border-radius: 10px;
   margin-bottom: 10px;
-  height: 100%;
+  object-fit: contain;
 }
 .featureclass {
   margin-left: 20px;
@@ -289,6 +290,8 @@ footer {
   justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 30px;
+  border: 3px solid green;
 }
 .featurepara {
   margin-left: 20px;
@@ -299,6 +302,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 3px red solid;
 }
 .headertext {
   width: 100%;
