@@ -1,0 +1,48 @@
+//About us styles 
+
+.container-aboutus {
+    margin-bottom: 10px;
+    
+
+    .TLbio {
+
+        .mixinFlex();
+        .marginParaMixin(80px, 80px);
+        background: @background-color;
+          
+        @media @mobile {
+            background: @background-color;
+            .widthParaMixin(100%);
+            .marginParaMixin(0px, 0px);
+            
+        }
+        
+    }
+
+
+.allmems {
+    .mixinFlex();
+
+    @media @mobile {
+        .marginParaMixin(10px, 10px);
+        font-size: @mobile-font-size;
+        
+        
+    }
+}
+    
+
+    
+}
+
+.S {
+
+    @media @mobile {
+        .widthParaMixin(80%);
+        
+        
+
+    }
+}
+
+

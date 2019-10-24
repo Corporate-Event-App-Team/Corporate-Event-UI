@@ -1,1 +1,181 @@
 //home styles
+
+* { box-sizing: border-box;
+}
+
+#title {
+    .widthParaMixin(50%);
+        padding-left: 10px;
+   
+    
+
+    @media @mobile {
+        .widthParaMixin(100%);
+        .mixinFlex();
+    }
+
+}
+
+
+.tagandpic {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+}
+
+.undernav {
+    .mixinFlex();
+    .paddingParaMixin(5px, 5px);
+    .marginParaMixin(20px, 20px);
+    margin-bottom: 10px;
+    
+    
+}
+
+
+.bee {
+    display: flex;
+   margin: 0 auto;
+   padding-bottom: 10px;
+   .widthParaMixin(100%);
+   
+
+
+}
+
+
+
+
+.buttons {
+    border-bottom: 1px @theme-font-color dashed;
+    .mixinFlex();
+    padding-bottom: 20px;
+
+
+    .buttonstyle {
+        .buttontostyle(@background-color, white, 13px, 10px, 10px, .4em);
+        border: 2px @theme-font-color solid;
+        border-radius: 13px;
+        line-height: 3.5rem;
+        cursor: pointer;
+        padding: .4em;
+        
+        
+    
+        &:hover {
+            background-color: saturate(white, 80%);
+        
+          }
+
+          &:hover {
+            color: saturate(@theme-font-color, 80%);
+        
+          }
+          
+
+    
+      
+    
+    }
+    
+}
+
+
+
+.container-home {
+    border-bottom: 1px @theme-font-color dashed;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+   
+    
+
+}
+
+.specialh2 {
+     font-size: 2rem;
+     .mixinFlex();
+
+
+ }
+
+.mainpictures {
+    .widthParaMixin(100%);
+    border: 3px @background-color solid; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+     object-fit: contain;
+    
+   
+    
+}
+
+.featureclass {
+    .marginParaMixin(20px, 20px);
+   .mixinFlex();
+   .mixinPadding();
+   margin-bottom: 30px;
+  
+
+   @media @mobile {
+       display: flex;
+       flex-direction: column;
+       
+   }
+   
+   
+ 
+
+}
+
+.featurepara {
+    .marginParaMixin(20px, 20px);
+  
+    @media @mobile {
+        font-size: @mobile-font-size;
+    }
+}
+
+
+
+.text {
+    
+    .widthParaMixin(100%);
+    .mixinFlex();
+    .alignItem();
+    
+    @media @mobile {
+        font-size: @mobile-font-size;
+    }
+   
+    
+}
+
+.headertext {
+    .widthParaMixin(100%);
+    .mixinFlex();
+    .alignItem();
+    text-decoration: underline;
+
+}
+
+.contentcontainer {
+    margin-bottom: 20px;
+    
+    
+}
+
+.all {
+    .mixinPadding();
+    .widthParaMixin(33.3%);
+
+
+    @media @mobile {
+        .widthParaMixin(100%);
+    }
+   
+
+
+}

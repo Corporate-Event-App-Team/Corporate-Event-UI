@@ -1,3 +1,14 @@
+.mixinFlex {
+  display: flex;
+  justify-content: center;
+}
+.mixinPadding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.alignItem {
+  align-items: center;
+}
 html,
 body,
 div,
@@ -121,4 +132,247 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: Roboto;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.7rem;
+}
+h3 {
+  font-size: 1.9rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #ffac02;
+}
+.headerclass {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .headerclass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.headerclass .navflexbox {
+  width: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background: #090429;
+  border-radius: 10px;
+  margin-right: 10px;
+  height: 60px;
+  align-self: flex-start;
+}
+@media (max-width: 500px) {
+  .headerclass .navflexbox {
+    margin-top: 10px;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: #090429;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+#title {
+  width: 50%;
+  padding-left: 10px;
+}
+@media (max-width: 500px) {
+  #title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.tagandpic {
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.undernav {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.bee {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.buttons {
+  border-bottom: 1px #FBAB06 dashed;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.buttons .buttonstyle {
+  background: #090429;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px #FBAB06 solid;
+  border-radius: 13px;
+  line-height: 3.5rem;
+  cursor: pointer;
+  padding: 0.4em;
+}
+.buttons .buttonstyle:hover {
+  background-color: #ffffff;
+}
+.buttons .buttonstyle:hover {
+  color: #ffac02;
+}
+.container-home {
+  border-bottom: 1px #FBAB06 dashed;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin-top: 30px;
+}
+.specialh2 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.mainpictures {
+  width: 100%;
+  border: 3px #090429 solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+.featureclass {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .featureclass {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.featurepara {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media (max-width: 500px) {
+  .featurepara {
+    font-size: 1.4rem;
+  }
+}
+.text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .text {
+    font-size: 1.4rem;
+  }
+}
+.headertext {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+.contentcontainer {
+  margin-bottom: 20px;
+}
+.all {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 33.3%;
+}
+@media (max-width: 500px) {
+  .all {
+    width: 100%;
+  }
+}
+.container-aboutus {
+  margin-bottom: 10px;
+}
+.container-aboutus .TLbio {
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  background: #090429;
+}
+@media (max-width: 500px) {
+  .container-aboutus .TLbio {
+    background: #090429;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.container-aboutus .allmems {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .container-aboutus .allmems {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 500px) {
+  .S {
+    width: 80%;
+  }
 }
